@@ -1,0 +1,32 @@
+{
+  "name": "tpi-metodologia-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron AppGestion-Escritorio/src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "electron": "^36.7.3",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.1",
+    "node-gyp-build": "^4.8.4",
+    "nodemailer": "^7.0.3",
+    "path": "^0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coletti68/TPI-Metodologia-1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Coletti68/TPI-Metodologia-1/issues"
+  },
+  "homepage": "https://github.com/Coletti68/TPI-Metodologia-1#readme"
+}
