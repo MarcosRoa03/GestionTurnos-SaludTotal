@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Solicitar Turno - SALUD TOTAL</title>
+ <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body class="body-turno">
+  <header class="head-turno">
+    <h1>Solicitar Turno</h1>
+    <a href="/html/Home_Login.html" class="boton-secundario">Volver al Inicio</a>
+  </header>
+
+  <section id="solicitar-turno">
+    <h2>Solicitar Turno</h2>
+    <form class="form-turno" id="form-turno">
+      <div class="grupo-form">
+        <label for="especialidad">Especialidad:</label>
+        <select id="especialidad" required>
+          <option value="">Seleccione una especialidad</option>
+        </select>
+      </div>
+
+      <div class="grupo-form">
+        <label for="profesional">Profesional:</label>
+        <select id="profesional" required>
+          <option value="">Seleccione un profesional</option>
+        </select>
+      </div>
+
+      <div class="grupo-form">
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" required>
+      </div>
+
+      <div class="grupo-form">
+        <label for="horario">Horario:</label>
+        <select id="horario" required>
+          <option value="">Seleccione un horario</option>
+        </select>
+      </div>
+
+      <button type="submit" class="boton-principal">Confirmar Turno</button>
+    </form>
+    
+  </section>
+  <script src="/js/turnos.js"></script>
+</body>
+</html>
